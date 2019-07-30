@@ -1,0 +1,403 @@
+/*作者：刘艳东*/
+
+
+/*专题专栏主体*/
+#spacialColumn-main .main{
+    margin:0px 0px 10px;
+    border-radius:10px;
+    background-color:#ffffff;
+    box-shadow:1px 1px 10px #303030,-1px -1px 10px #303030;
+}
+#position,#position a{
+    color:#999999;
+}
+#position{
+    padding:20px 0px 0px 55px;
+    border-radius:10px;
+    background:#ffffff url("../img/icons.png") no-repeat 28px -1620px;
+}
+#spacialColumn-main .main hr{
+    width:95%;
+    margin:10px auto;
+    height:2px;
+    opacity:0.5;
+}
+#spacialColumn-main .main #special{
+    overflow:hidden;
+    margin:0px 25px;
+    background-color: #e8e8e8;
+}
+#spacialColumn-main .main #special li{
+    display:inline-block;
+    padding:15px 36px;
+    position:relative;
+}
+#spacialColumn-main .main #special .new{
+    background-color:green;
+}
+#spacialColumn-main .main #special .new a{
+    color:white;
+}
+#spacialColumn-main .main #special .ago a{
+    color:#000000;
+}
+#spacialColumn-main .main #special li div{
+    background-color:#ffffff;
+}
+#spacialColumn-main .main .out,#spacialColumn-main .main .out-another{
+    width:96%;
+    margin:20px auto;
+    /*column-count:3;*/
+    padding-left:20px;
+    overflow:hidden;
+}
+#spacialColumn-main .main .out,#spacialColumn-main .main .out-another a{color:black}
+#spacialColumn-main .main .out-another{
+    display:none;
+}
+#spacialColumn-main .main .out div,#spacialColumn-main .main .out-another div{
+    border:1px solid #e3e3e3;
+    padding:5px;
+    width:350px;
+    float:left;
+    margin:0px 18px 30px 0px;
+}
+#spacialColumn-main .main .out div img,#spacialColumn-main .main .out-another div img{
+    text-align:center;
+    padding:15px;
+}
+#spacialColumn-main .main .out div h3,#spacialColumn-main .main .out-another div h3{
+    padding-left:15px;
+}
+#spacialColumn-main .main .out div p{
+    padding:15px;
+    color: #949494;
+    line-height:30px;
+}
+#spacialColumn-main .main .out div a{
+    margin:0px auto 15px;
+    display:block;
+    width:120px;
+    height:35px;
+    line-height:35px;
+    background-color: rgba(0, 155, 0, 0.85);
+    text-align:center;
+    border:0;
+    color:#ffffff;
+    font-size:16px;
+    border-radius:3px;
+}
+
+/*森林防火*/
+.fire-wrap{
+    background-color: #f2f2f2;
+}
+    /*欢迎信息*/
+.fire-wrap .welcome{width:100%;height:25px;background:/*linear-gradient(top,white 0%,#e3e3e3 100%)*/white;}
+.fire-wrap .welcome p span{color:#999999;margin-left:650px;}
+.fire-wrap .welcome p span a{color:black}
+.fire-wrap .welcome p{
+    line-height:25px;
+    width:100%;
+    font-size:12px;
+    margin-left:150px;
+    margin-right:150px;
+}
+    /*森林防火头部*/
+#fire-header{
+    width:100%;
+    height:326px;
+    background:url("../img/fire--header.jpg") 50% 100%;
+    position:relative;
+}
+#fire-header #fire-nav{
+    position:absolute;
+    overflow:hidden;
+    height:57px;
+    /*width:550px;*/
+    background-color: #ad0102;
+    left:135px;
+    bottom:12px;
+}
+#fire-header #fire-nav li{
+    float:left;
+    line-height:50px;
+    padding:3px 30px 7px;
+}
+#fire-header #fire-nav li a{
+    color:#fdf37e;
+    font-size:20px;
+}
+/*森林防火主体部分*/
+#fire-main{
+    width:80%;
+    margin:0px auto;
+    padding-top:5px;
+    background-color:#ffffff;
+}
+#fire-main .box{
+    background:url("../img/box-bg.png") no-repeat;
+    margin:10px auto 0px;
+    width:95%;
+    position:relative;
+    padding-top:7px;
+    height:280px;
+    overflow:hidden;
+}
+#fire-main .box .more{
+    float:right;
+    margin:13px 10px 0px 0px;
+}
+#fire-main .box .more a{
+    font-size:14px;
+}
+#fire-main .box .title a{
+    font-size:20px;
+    margin-left:50px;
+}
+#fire-main .box span a{
+    color:white;
+}
+#fire-main .box ul{
+    position:absolute;
+    padding-bottom:30px;
+    width:490px;
+}
+#fire-main .box ul li{
+    overflow:hidden;
+    padding:5px 5px 10px 25px;
+    margin-left:10px;
+    background:url("../img/firelist-img.png") no-repeat 5px 13px;
+}
+#fire-main .box ul li a{
+    color:#000000;
+}
+#fire-main .box ul li span{
+    float:right;
+    color:#999999;
+}
+#fire-main .box .box-left{
+    float:left;
+    margin:50px auto 40px;
+}
+#fire-main .box .box-right{
+    float:left;
+    margin-left:530px;
+    margin-top:50px;
+}
+#fire-main .box:nth-child(2){
+    height:450px;
+}
+#fire-main .box h3{
+    padding:40px 0px 20px 30px;
+}
+#fire-main .box h3 a{color:black}
+#fire-main .box .ul-p{
+    width:480px;
+    margin-left:10px;
+    padding-bottom:20px;
+    font-size:15px;
+    line-height:25px;border-bottom:1px dashed #565656;
+}
+/*bug*/
+#fire-main .box:nth-child(3){
+    height:380px;
+}
+#fire-main .box .right{
+    float:right;
+    margin:-155px 0px 0px 0px;
+}
+#fire-main .box:nth-child(3) ul{
+    margin-top:30px;
+    position:absolute;
+    left:-25px;
+}
+#fire-main .box:nth-child(3) ul li{
+    background:none;
+    margin-top:-30px;
+}
+#fire-main .box:nth-child(3) ul li h3{
+    text-align:center;
+}
+#fire-main .box:nth-child(4){
+    height:630px;
+}
+#fire-main .box .forecast{
+    margin:20px auto 0px;
+    list-style-type:none;
+    padding-bottom:50px;
+    overflow:hidden;
+    /*position:absolute;*/
+}
+/*#fire-main .box .forecast:nth-child(2){
+    margin-top:200px;
+}*/
+#fire-main .box .forecast li{
+    width:220px;
+    float:left;
+    margin-right:36px;
+}
+#fire-main .box .forecast li a{color:#000000}
+#fire-main .box .forecast li a p{
+    border:0;
+    width:220px;
+}
+#fire-main .box .forecast li a img{
+    margin:10px 20px;
+}
+#fire-footer{
+    width:100%;
+    background-color:#e1e1e1;
+    padding:10px 0px 40px;
+    border-top:1px solid #8d8d8d;
+}
+#fire-footer .fire-footer-nav{
+    overflow:hidden;
+    width:48%;
+    margin:20px auto;
+}
+#fire-footer .fire-footer-nav li{
+    float:left;
+    padding-left:50px;
+}
+#fire-footer .fire-footer-nav li a{
+    font-size:14px;
+}
+#fire-footer p{
+    font-size:14px;
+    text-align:center;
+    margin-top:10px;
+}
+#fire-footer a{
+    color:#000000;
+}
+#fire-footer p:nth-child(3) a{
+    padding:0px 5px;
+}
+
+/*涉企信息主体*/
+#enterpriseRelate .catalog{
+    background-color:#ffffff;
+    margin:0px auto 10px;border-radius:10px;
+    padding:40PX 20px;
+    box-shadow:1px 1px 10px #5d5d5d,-1px -1px 10px #646464;
+    overflow:hidden;
+}
+#enterpriseRelate .catalog ul{
+    width:191px;
+    float:left;
+}
+#enterpriseRelate .catalog ul li{
+    border:1px solid #cacaca;
+    padding:14px 0px 14px 0px;
+    height:20px;
+   /* background:url("../img/catalog-icon.png") no-repeat;*/
+    background-size:20px 25px;
+    margin:30px 22px 10px 0px;
+}
+#enterpriseRelate .catalog ul li a{
+    width:100px;
+    /*border:1px solid red;*/
+    background:url("../img/catalog-icon1.png") no-repeat;
+    padding:4px 10px 4px 60px;
+    /*padding:18px 10px 18px 60px;*/
+}
+#enterpriseRelate .catalog ul li a{color:#000000;font-size:16px;font-weight:500}
+#enterpriseRelate .catalog .catalog-nav1  li:nth-child(1) a{
+    background-position:25px -360px;
+}
+#enterpriseRelate .catalog .catalog-nav1  li:nth-child(2) a{
+    background-position:20px -540px;
+}
+#enterpriseRelate .catalog .catalog-nav1  li:nth-child(3) a{
+    background-position:20px -720px;
+}
+#enterpriseRelate .catalog .catalog-nav1  li:nth-child(4) a{
+    background-position:20px -901px;
+}
+#enterpriseRelate .catalog .catalog-nav2  li:nth-child(1) a{
+    background-position:25px -387px;
+}
+#enterpriseRelate .catalog .catalog-nav2  li:nth-child(2) a{
+    background-position:20px -569px;
+}
+#enterpriseRelate .catalog .catalog-nav2  li:nth-child(3) a{
+    background-position:14px -747px;
+}
+#enterpriseRelate .catalog .catalog-nav2  li:nth-child(4) a{
+    background-position:20px -930px;
+}
+#enterpriseRelate .catalog .catalog-nav3  li:nth-child(1) a{
+    background-position:20px -416px;
+}
+#enterpriseRelate .catalog .catalog-nav3  li:nth-child(2) a{
+    background-position:20px -599px;
+}
+#enterpriseRelate .catalog .catalog-nav3  li:nth-child(3) a{
+    background-position:20px -780px;
+}
+#enterpriseRelate .catalog .catalog-nav3  li:nth-child(4) a{
+    background-position:20px -959px;
+}
+#enterpriseRelate .catalog .catalog-nav4  li:nth-child(1) a{
+    background-position:20px -447px;
+}
+#enterpriseRelate .catalog .catalog-nav4  li:nth-child(2) a{
+    background-position:20px -628px;
+}
+#enterpriseRelate .catalog .catalog-nav4  li:nth-child(3) a{
+    background-position:20px -809px;
+}
+#enterpriseRelate .catalog .catalog-nav4  li:nth-child(4) a{
+    background-position:20px -780px;
+}
+#enterpriseRelate .catalog .catalog-nav5  li:nth-child(1) a{
+    background-position:20px -478px;
+}
+#enterpriseRelate .catalog .catalog-nav5  li:nth-child(2) a{
+    background-position:20px -656px;
+}
+#enterpriseRelate .catalog .catalog-nav5  li:nth-child(3) a{
+    background-position:20px -838px;
+}
+#enterpriseRelate .catalog .catalog-nav5  li:nth-child(4) a{
+    background-position:20px -720px;
+}
+#enterpriseRelate .catalog .catalog-nav6  li:nth-child(1) a{
+    background-position:20px -508px;
+}
+#enterpriseRelate .catalog .catalog-nav6  li:nth-child(2) a{
+    background-position:20px -687px;
+}
+#enterpriseRelate .catalog .catalog-nav6  li:nth-child(3) a{
+    background-position:20px -867px;
+}
+/*涉企信息*/
+#spacialColumn-main .main .list,#spacialColumn-main .main .list .page{
+    margin:0px 30px;
+}
+#spacialColumn-main .main .list .relate-information{
+    padding:35px 0px;
+    border-bottom:1px dashed #999999;
+}
+#spacialColumn-main .main .list .relate-information:nth-child(3){
+    border-bottom:0;
+}
+#spacialColumn-main .main .list .relate-information li{
+    overflow:hidden;
+    padding:10px 0px 10px 20px;
+    background:url("../img/informationList.png") no-repeat 10px 20px;
+}
+#spacialColumn-main .main .list .relate-information li a{
+    color:black;font-size:14px;
+}
+#spacialColumn-main .main .list .relate-information li span{
+    float:right;color:#999999;
+}
+#spacialColumn-main .main .list .page{padding-bottom:50px;}
+#spacialColumn-main .main .list .page ol{list-style-type:none;overflow:hidden;margin-left:30px;}
+#spacialColumn-main .main .list .page ol li{float:left;margin-right:10px;border:1px solid #e3e3e3;padding:3px 10px;color: #898989
+}
+#spacialColumn-main .main .list .page ol li a{color:black;}
+#spacialColumn-main .main .list .page ol .page-one{background-color:green}
+#spacialColumn-main .main .list .page ol .page-one a{color:#ffffff}
