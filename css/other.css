@@ -98,7 +98,8 @@
 .fire-wrap .welcome p span a{color:black}
 .fire-wrap .welcome p{
     line-height:25px;
-    width:100%;
+    width:80%;
+    margin:0px auto;
     font-size:12px;
     margin-left:150px;
     margin-right:150px;
